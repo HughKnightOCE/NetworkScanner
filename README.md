@@ -17,16 +17,15 @@ This project was built as part of my cybersecurity portfolio to demonstrate skil
 ## 🧩 Project Structure
 NetworkScanner/
 ├── src/
-│   ├── network_scanner.py        # Main scanning logic (✅ present and committed)
-│   └── utils/                    # (Optional) helper modules (create if needed)
+│ ├── network_scanner.py # Main scanning logic 
 │
 ├── examples/
-│   └── scan_results.txt          # Example output file (optional demo result)
+│ └── scan_results.txt # Example output file (optional demo result)
 │
-├── requirements.txt              # Dependencies and optional packages
-├── README.md                     # Project documentation and setup guide
-├── LICENSE                       # MIT license file
-└── .gitignore                    # Ignore compiled, build, and system files
+├── requirements.txt # Dependencies and optional packages
+├── README.md # Project documentation and setup guide
+├── LICENSE # MIT license file
+└── .gitignore # Ignore compiled, build, and system files
 
 ---
 
