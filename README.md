@@ -32,7 +32,7 @@ NetworkScanner/
 └── .gitignore                    # Ignore compiled/build/system files
 
 ---
-
+```
 ## ⚙️ Installation
 
 git clone https://github.com/HughKnightOCE/NetworkScanner.git
