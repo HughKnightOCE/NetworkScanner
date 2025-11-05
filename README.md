@@ -17,6 +17,7 @@ This project was built as part of my cybersecurity and automation toolkit to dem
 
 ## 🧩 Project Structure
 
+```bash
 NetworkScanner/
 ├── src/
 │   ├── network_scanner.py        # Main scanning logic
