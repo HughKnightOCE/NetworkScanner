@@ -35,19 +35,20 @@ NetworkScanner/
 ---
 
 ## ⚙️ Installation
-
+```bash
 git clone https://github.com/HughKnightOCE/NetworkScanner.git
 cd NetworkScanner
 pip install -r requirements.txt
+```
 
 ---
 
 ## 🚀 Usage
 
 Run the tool from your terminal or IDE:
-
+```bash
 python src/network_scanner.py
-
+```
 After execution, results will be saved in the `examples/scan_results.txt` file (or your chosen output path).
 
 ---
