@@ -1,1 +1,12 @@
-scapy
+# Network Scanner Requirements
+# ------------------------------
+# This project uses only Python's built-in standard library modules.
+# No external dependencies are required to run the main script.
+
+# Standard libraries used:
+# os, time, subprocess, threading, socket
+
+# Optional dependencies for extended functionality:
+# scapy>=2.5.0     # Enables ARP/ICMP-based scanning (requires Npcap on Windows)
+# ping3>=4.0.4     # For ICMP ping without elevated permissions
+# tqdm>=4.66.0     # Adds a progress bar for large IP ranges
