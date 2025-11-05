@@ -1,0 +1,22 @@
+
+
+--- Scan started at 2025-02-06 20:33:40 ---
+
+POTENTIAL RISKS AND VULNERABILITIES
+
+HTTP Proxy Port: 8080
+NetBIOS Port: 139
+SMB (Server Message Block) Port: 445
+HTTP Proxy Port: 8080
+MS RPC Port: 135
+NetBIOS Port: 139
+SMB (Server Message Block) Port: 445
+SSH Port: 22
+MS RPC Port: 135
+MS RPC Port: 135
+NetBIOS Port: 139
+SMB (Server Message Block) Port: 445
+
+
+--- End of Scan ---
+
