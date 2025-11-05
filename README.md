@@ -1,22 +1,22 @@
-# Network Scanner
+# 🌐 Network Scanner
 
-A lightweight Python-based tool for scanning local or remote IP ranges and detecting active hosts.  
-This project was built as part of my cybersecurity portfolio to demonstrate skills in networking, concurrency, and automation.
+A lightweight Python-based network diagnostic tool that scans and identifies live hosts across a subnet or IP range.  
+This project was built as part of my cybersecurity and automation toolkit to demonstrate skills in Python scripting, multithreading, and network analysis.
 
 ---
 
 ## 🔍 Features
-- Scans a defined subnet or range of IPs.  
-- Detects live hosts using ICMP or ARP-based ping.  
-- Optional port scanning for common TCP ports.  
-- Multithreaded for improved performance.  
-- Command-line and modular Python design for easy integration.
+
+- Scans a defined subnet or range of IPs  
+- Detects live hosts using ICMP or ARP-based ping  
+- Optionally scans common TCP ports  
+- Multithreaded for improved performance  
+- Command-line and modular Python design for easy integration  
 
 ---
 
 ## 🧩 Project Structure
 
-```text
 NetworkScanner/
 ├── src/
 │   ├── network_scanner.py        # Main scanning logic
@@ -30,33 +30,47 @@ NetworkScanner/
 ├── LICENSE                       # MIT license
 └── .gitignore                    # Ignore compiled/build/system files
 
-
 ---
 
 ## ⚙️ Installation
-```bash
+
 git clone https://github.com/HughKnightOCE/NetworkScanner.git
 cd NetworkScanner
 pip install -r requirements.txt
-```
 
 ---
 
 ## 🚀 Usage
-```bash
+
+Run the tool from your terminal or IDE:
+
 python src/network_scanner.py
-```
 
-Optionally, adjust IP ranges and port lists inside the script before running.
-
----
-
-## 🧠 About This Project
-This tool was developed to practice networking fundamentals, automation, and Python scripting efficiency.  
-It demonstrates the ability to interact with system commands, parse subprocess results, and utilise threading for concurrency.
+After execution, results will be saved in the `examples/scan_results.txt` file (or your chosen output path).
 
 ---
 
-## 📬 Contact
-📧 **hugh.knight17@gmail.com**  
-💼 [LinkedIn](https://www.linkedin.com/in/hugh-knight-australia)
+## 🧱 Requirements
+
+The tool uses standard Python libraries.  
+If additional dependencies are added later, include them in `requirements.txt`.
+
+Example content:
+os
+time
+subprocess
+threading
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the `LICENSE` file for details.
+
+---
+
+## ✉️ Contact
+
+Created by **Hugh Knight**  
+📧 hugh.knight17@gmail.com  
+🔗 GitHub: https://github.com/HughKnightOCE
