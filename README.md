@@ -74,5 +74,4 @@ This project is licensed under the **MIT License** — see the `LICENSE` file fo
 ## ✉️ Contact
 
 Created by **Hugh Knight**  
-📧 hugh.knight17@gmail.com  
 🔗 GitHub: https://github.com/HughKnightOCE
