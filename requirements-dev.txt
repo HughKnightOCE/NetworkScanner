@@ -1,0 +1,20 @@
+# Development dependencies for Network Scanner
+# Install with: pip install -r requirements-dev.txt
+
+-r requirements.txt       # Include base requirements
+
+# Code Quality & Linting
+pylint>=3.0.0             # Code analysis and linting
+black>=23.0.0             # Code formatter
+flake8>=6.0.0             # Style guide enforcement
+mypy>=1.0.0               # Static type checker
+
+# Testing
+pytest>=7.0.0             # Testing framework
+pytest-cov>=4.0.0         # Coverage plugin
+
+# Documentation
+sphinx>=7.0.0             # Documentation generator
+
+# Development Tools
+autopep8>=2.0.0           # Automatic code formatter
